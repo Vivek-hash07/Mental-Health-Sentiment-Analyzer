@@ -1,0 +1,23 @@
+streamlit==1.32.2            # Core web app framework
+textblob==0.17.1             # For simple sentiment analysis
+vaderSentiment==3.3.2        # Social media sentiment scoring
+transformers==4.39.1         # HuggingFace for deep emotion models
+torch                        # Required for transformer models
+matplotlib                   # For visualizations in Tracker page
+scikit-learn                 # For optional model building, preprocessing
+joblib                       # Model saving/loading
+numpy                        # Numerical operations
+pandas                       # Data manipulation and mood logging
+plotly                       # Interactive charts for better UI
+requests                     # For potential API use
+Pillow                       # For loading images (logo, etc.)
+
+# Voice input
+speechrecognition            # Voice input feature
+pyaudio                      # Required for live mic input (can be tricky on Windows)
+
+# UI enhancements
+streamlit-option-menu        # Sidebar menu
+
+# HuggingFace hub support
+huggingface_hub              # For using and managing HF models

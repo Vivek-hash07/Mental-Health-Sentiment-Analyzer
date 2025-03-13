@@ -1,0 +1,20 @@
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore models if needed
+*.h5
+*.pt
+*.pkl
+
+# Ignore logs or reports
+*.log
+*.csv
+*.pdf
