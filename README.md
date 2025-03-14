@@ -47,15 +47,35 @@ source venv/bin/activate  # or
 pip install -r requirements.txt
 
 # Run the app
+
+
 streamlit run app.py
+
+
 👤 Author
+
+
 Vivek Dalpatbhai Sarvaiya
+
+
 💼 Passionate about designing intelligent, empathetic digital experiences using AI.
+
+
 📧 viveksarvaiya1873@gmail.com
+
+
 🔗 LinkedIn :https://www.linkedin.com/in/vivek-sarvaiya-40537a286/
 
 🙌 Acknowledgments
+
+
 HuggingFace Transformers
+
+
 Streamlit
+
+
 TextBlob
+
+
 VADER Sentiment
