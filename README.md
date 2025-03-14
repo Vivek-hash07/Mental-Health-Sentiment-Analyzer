@@ -1,38 +1,56 @@
 🧠 Mental Health Sentiment Analyzer
-Mental Health Sentiment Analyzer is a powerful AI-powered web application designed to help users better understand their emotional state through intelligent sentiment analysis. Whether you're expressing your thoughts by text or voice, this tool provides insights, support, and mood tracking to promote emotional well-being.
+A smart and interactive mental wellness assistant that uses Natural Language Processing and Machine Learning to detect emotional states and provide supportive messages, mood tracking, and insightful visualizations.
 
-🚀 Features
-Advanced Sentiment Analysis
-Utilizes state-of-the-art NLP models including Transformer (HuggingFace), VADER, and TextBlob to analyze emotions in your input.
+📌 Project Demo
+🎯 Live App:https://mental-health-sentiment-analyzer-tanwqwm5cpbfsho5kgmulb.streamlit.app/
 
-Voice Input Support
-Speak freely — the app transcribes your voice and analyzes your emotions instantly.
+🌟 Features
+📝 Text & Voice Emotion Input
+🤗 Emotion Detection using:
+HuggingFace Transformers
+VADER (Valence Aware Dictionary and sEntiment Reasoner)
+TextBlob
+🎯 Multi-model Sentiment Comparison
+💌 Supportive Response Generator
+📊 Mood Tracker with:
+Mood logging
+Mood history
+Line & bar charts for emotion trends
+📤 Exportable Mood Logs (CSV)
+🔔 Coming Soon: AI Self-Care Tips, Mood Report PDF, Email Reminders, Journal Timeline
+🧪 Technologies Used
+Tool	Purpose
+Streamlit	Web app interface
+transformers (HuggingFace)	Deep learning sentiment analysis
+TextBlob	Text polarity and sentiment
+VADER	Rule-based sentiment model
+SpeechRecognition	Voice input transcription
+Matplotlib & Plotly	Visualizations
+Pandas	Mood data handling
 
-Empathetic Support Messages
-Get personalized, supportive messages based on the detected emotional tone.
+🚀 How to Run Locally:
 
-Mood Tracker
-Log and visualize your mood over time to reflect on your mental wellness journey.
+# Clone the repository
+git clone https://github.com/yourusername/mental-health-sentiment-analyzer.git
+cd mental-health-sentiment-analyzer
 
-Modular Architecture
-Built with reusable modules and expandable design for future enhancements like journaling, email reminders, and more.
+# Create a virtual environment and activate it
+python -m venv venv
+source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 
-💻 How to Run the Project
-Clone the repository and navigate to the project folder
-Create a virtual environment and activate it
-Install required dependencies using the provided requirements.txt
-Run the application using Streamlit
-No GPU required — fully runnable on standard CPUs.
+# Install required packages
+pip install -r requirements.txt
 
-📂 Tech Stack
-Frontend: Streamlit
-Backend: Python (NLP with HuggingFace Transformers, NLTK, TextBlob)
-Speech Recognition: Google Web Speech API
-Visualization: Matplotlib & Pandas
-🙌 Credits
-This project is designed and built by Vivek Sarvaiya
+# Run the app
+streamlit run app.py
+👤 Author
+Vivek Dalpatbhai Sarvaiya
+💼 Passionate about designing intelligent, empathetic digital experiences using AI.
+📧 viveksarvaiya1873@gmail.com
+🔗 LinkedIn | GitHub
 
-📄 License
-Licensed under the MIT License.
-Feel free to explore, modify, and improve this project for personal or professional use.
-
+🙌 Acknowledgments
+HuggingFace Transformers
+Streamlit
+TextBlob
+VADER Sentiment
