@@ -32,11 +32,16 @@ Pandas	Mood data handling
 
 # Clone the repository
 git clone https://github.com/yourusername/mental-health-sentiment-analyzer.git
+
+
 cd mental-health-sentiment-analyzer
 
 # Create a virtual environment and activate it
 python -m venv venv
-source venv/bin/activate  # or .\venv\Scripts\activate on Windows
+
+source venv/bin/activate  # or 
+
+.\venv\Scripts\activate on Windows
 
 # Install required packages
 pip install -r requirements.txt
