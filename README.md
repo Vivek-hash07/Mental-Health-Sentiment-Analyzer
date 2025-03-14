@@ -52,7 +52,7 @@ streamlit run app.py
 Vivek Dalpatbhai Sarvaiya
 💼 Passionate about designing intelligent, empathetic digital experiences using AI.
 📧 viveksarvaiya1873@gmail.com
-🔗 LinkedIn | GitHub
+🔗 LinkedIn :https://www.linkedin.com/in/vivek-sarvaiya-40537a286/
 
 🙌 Acknowledgments
 HuggingFace Transformers
