@@ -7,5 +7,8 @@ pandas
 matplotlib
 scikit-learn
 speechrecognition
+pyaudio
 streamlit-option-menu
 vaderSentiment
+altair
+pydub

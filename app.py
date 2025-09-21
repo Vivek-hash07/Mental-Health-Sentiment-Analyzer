@@ -30,15 +30,20 @@ if selected == "Main Analyzer":
     st.title("🧠 Mental Health Sentiment Analyzer")
     st.markdown("Analyze your mental state based on your text input using state-of-the-art NLP models.")
 
-    st.markdown("### 🗣️ Or speak your thoughts:")
-    if st.button("🎤 Speak Now"):
-        text = transcribe_voice_input()
-        if text:
-            st.text_area("Recognized Speech:", text, height=100)
-        else:
-            st.warning("Could not recognize speech. Try again.")
-    else:
-        text = st.text_area("📝 Enter your thoughts:", placeholder="Type something you're feeling...")
+    st.markdown("### 🗣️ Voice Input (Optional)")
+    st.markdown("Record your voice and we'll transcribe it for analysis:")
+    
+    # Voice input section
+    voice_text = transcribe_voice_input()
+    
+    # Text input section
+    st.markdown("### 📝 Text Input")
+    text = st.text_area("Enter your thoughts:", placeholder="Type something you're feeling...", key="text_input")
+    
+    # Use voice text if available, otherwise use typed text
+    if voice_text:
+        text = voice_text
+        st.success("✅ Using voice input for analysis")
 
     if st.button("🔍 Analyze"):
         if text.strip():
